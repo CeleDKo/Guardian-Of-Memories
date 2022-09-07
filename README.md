@@ -1,11 +1,13 @@
-# Guardian-Of-Memories
+# Guardian-Of-Memories Privacy Politics
 SwiKinGs Studio has created a free Memory Keeper app. This application is provided free of charge and is intended to be used "as is".
 
 This page is used to inform visitors about the policy regarding the collection, use and disclosure of Personal Information if someone decides to use this application.
 
 Using the application, you agree to the collection and use of information in relation to this policy. The personal information it collects is used to provide and improve the service. Your information will not be used or shared with anyone except as described in this Privacy Policy.
 
-Collection and use of information\n\nFor a better experience when using our application, you may be required to provide us with certain personal information, including but not limited to other things, email. The information I request will be stored on your device and will not be collected by me in any way.
+Collection and use of information
+
+For a better experience when using our application, you may be required to provide us with certain personal information, including but not limited to other things, email. The information I request will be stored on your device and will not be collected by me in any way.
 The application uses third-party services that may collect information used to identify you.
 
 List of third-party service providers used by the application
