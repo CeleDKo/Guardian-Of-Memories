@@ -15,6 +15,10 @@ List of third-party service providers used by the application
 * Google Analytics for Firebase
 * Unity
 
+Request to delete your account and related data
+
+To request deletion of your account and deletion of all associated data, please contact the mailing address daniil-210968@yandex.ru indicating the name of your account in the application
+
 Log Data
 
 We want to inform you that whenever you use the app, in the event of an app error, we collect data and information (via third party products) on your phone called log data. This log data may include information such as your device's IP address, device name, operating system version, application configuration when using my Service, the time and date you used the Service, and other statistics.
