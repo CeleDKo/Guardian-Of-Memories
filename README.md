@@ -4,7 +4,7 @@ This folder contains the public homepage and Privacy Policy for the Guardian of 
 
 ## Before publishing
 
-1. Replace every occurrence of `REPLACE_WITH_SUPPORT_EMAIL` in `index.html` and `privacy/index.html` with a real support/privacy email address that you monitor.
+1. Replace every occurrence of `celedkoooo@gmail.com` in `index.html` and `privacy/index.html` with a real support/privacy email address that you monitor.
 2. Verify that the descriptions match the app as actually shipped:
    - Google Sign-In is used for authentication.
    - The app receives basic account information (name, email, Google account identifier).
