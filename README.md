@@ -1,33 +1,41 @@
-# Guardian-Of-Memories Privacy Politics
-SwiKinGs Studio has created a free Memory Keeper app. This application is provided free of charge and is intended to be used "as is".
+# Guardian of Memories — GitHub Pages site
 
-This page is used to inform visitors about the policy regarding the collection, use and disclosure of Personal Information if someone decides to use this application.
+This folder contains the public homepage and Privacy Policy for the Guardian of Memories app.
 
-Using the application, you agree to the collection and use of information in relation to this policy. The personal information it collects is used to provide and improve the service. Your information will not be used or shared with anyone except as described in this Privacy Policy.
+## Before publishing
 
-Collection and use of information
+1. Replace every occurrence of `REPLACE_WITH_SUPPORT_EMAIL` in `index.html` and `privacy/index.html` with a real support/privacy email address that you monitor.
+2. Verify that the descriptions match the app as actually shipped:
+   - Google Sign-In is used for authentication.
+   - The app receives basic account information (name, email, Google account identifier).
+   - User-created memories are stored in the Firebase database configured for the app.
+3. Confirm whether the project uses Firebase Realtime Database or Cloud Firestore, and name the exact product in the policy if known.
+4. Confirm the actual deletion process. The current policy describes an email-based request; make sure you can fulfill deletion requests for both the Firebase Authentication account and associated database records.
+5. Review Firebase Database / Firestore Security Rules. Each user must only be able to read and write data they are authorized to access.
+6. If the app collects additional data (for example analytics, crash reports, device identifiers, voice recordings, location, or uploaded files), update the policy before publishing.
+7. Confirm your Google OAuth scopes do not request additional Google data beyond basic sign-in.
 
-For a better experience when using our application, you may be required to provide us with certain personal information, including but not limited to other things, email. The information I request will be stored on your device and will not be collected by me in any way.
-The application uses third-party services that may collect information used to identify you.
+## Publish with GitHub Pages
 
-List of third-party service providers used by the application
-* Google Play Services
-* Google Analytics for Firebase
-* Unity
+1. Copy the contents of this folder into the root of the `Guardian-Of-Memories` repository.
+2. In GitHub, open **Settings → Pages**.
+3. Under **Build and deployment**, select **Deploy from a branch**.
+4. Select your publishing branch (usually `main`) and folder `/ (root)`, then save.
+5. Wait for GitHub Pages to publish the site.
 
-Request to delete your account and related data
+Expected URLs:
 
-To request deletion of your account and deletion of all associated data, please contact the mailing address daniil-210968@yandex.ru indicating the name of your account in the application
+- Homepage: `https://celedko.github.io/Guardian-Of-Memories/`
+- Privacy Policy: `https://celedko.github.io/Guardian-Of-Memories/privacy/`
 
-Log Data
+These URLs are based on the repository and account names supplied in the conversation. Confirm the actual published URLs in GitHub Pages settings.
 
-We want to inform you that whenever you use the app, in the event of an app error, we collect data and information (via third party products) on your phone called log data. This log data may include information such as your device's IP address, device name, operating system version, application configuration when using my Service, the time and date you used the Service, and other statistics.
+## Google verification
 
-Security
+GitHub Pages on `github.io` may not be accepted as proof that you own the website/domain for Google's verification requirement. If Search Console cannot verify the GitHub Pages URL-prefix property, use a custom domain that you control, connect it to GitHub Pages, and verify that domain in Google Search Console. Do not claim ownership of `github.io`.
 
-We We value your trust in providing us with your personal information, therefore we strive to use commercially acceptable means to protect it. But remember that no method of transmission over the Internet or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security. 
-All your memories are encrypted and will not be used by us in any way
+After the site is public, add the homepage and Privacy Policy URLs to Google Auth Platform → Branding. Ensure the app name is exactly **Guardian of Memories**.
 
-Links to other sites
+## Important
 
-This app may contain links to other sites. If you click on a third party link, you will be redirected to that site. Please note that I do not manage these external sites. Therefore, I highly recommend that you read the Privacy Policy of these websites. I do not control and am not responsible for the content, privacy policies or actions of any third party sites or services.
+This is a practical starter site and policy draft, not legal advice and not proof of compliance by itself. Publish only after checking the text against the real app behavior, Firebase configuration, applicable law, and Google's current OAuth verification requirements.
